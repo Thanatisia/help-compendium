@@ -112,3 +112,9 @@
     - Updated document 'README.md' in 'manuals/software-development/programming-languages/python/libraries/'
         + Added new manuals/documentations and packages on built-in libraries
 
+#### 1443H
+- Updates
+    - Updated document 'sqlite3.md' in 'manuals/software-development/programming-languages/python/libraries/built-in/'
+        + Added function documentation for 'sqlite3.Connection().rollback()' to rollback any non-committed transactions back to the baseline
+        + Added usages and operational workflow usages for '.rollback()'
+
