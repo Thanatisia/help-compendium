@@ -124,3 +124,7 @@
 - New
     + Added new document 'README.md' in 'manuals' housing a complete index/table of contents of the manuals directory
 
+#### 0853H
+- New
+    - Added new testing/WIP feature: computils - a helper CLI utility for communicating with the compendium
+
