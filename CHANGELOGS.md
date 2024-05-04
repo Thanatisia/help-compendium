@@ -2,6 +2,7 @@
 
 ## Table of Contents
 + [2024-05-03](#2024-05-03)
++ [2024-05-04](#2024-05-04)
 
 ## Log Entries
 ### 2024-05-03
@@ -117,4 +118,9 @@
     - Updated document 'sqlite3.md' in 'manuals/software-development/programming-languages/python/libraries/built-in/'
         + Added function documentation for 'sqlite3.Connection().rollback()' to rollback any non-committed transactions back to the baseline
         + Added usages and operational workflow usages for '.rollback()'
+
+### 2024-05-04
+#### 0847H
+- New
+    + Added new document 'README.md' in 'manuals' housing a complete index/table of contents of the manuals directory
 
