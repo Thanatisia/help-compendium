@@ -128,3 +128,15 @@
 - New
     - Added new testing/WIP feature: computils - a helper CLI utility for communicating with the compendium
 
+#### 1233H
+- New
+    + Added new document '.gitignore' for computils'
+    + Added new document 'CONTRIBUTING.md' for contribution steps
+    + Added new python packaging configuration file 'pyproject.toml'
+- Updates
+    - Updated document 'README.md'
+        + Fixed description
+    - Updated source file 'main.py' for 'comp-reader'
+        + Added Markdown parser library 'marko'
+        + Added Markdown file string parsing
+

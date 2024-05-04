@@ -6,6 +6,7 @@ import sys
 import html
 import requests
 import threading
+import marko
 
 def init():
     """
@@ -32,8 +33,12 @@ def pull_manual_contents(topic, url_base="https://raw.githubusercontent.com/Than
     # Receive the response text
     rText = response.text
 
+    # Parse the Markdown file into python
+    md_Text = marko.convert(rText).strip()
+    md_Contents = md_Text.split("\n")
+
     # Store results in a list
-    results[topic] = rText
+    results[topic] = md_Contents
 
 def design_threads(args):
     threads = []

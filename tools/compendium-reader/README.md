@@ -2,7 +2,7 @@
 
 ## Information
 ### Description
-+ An assistant CLI utility used to retrieve/read help/manuals from the compendium on the local machinr
++ An assistant CLI utility used to retrieve/read help/manuals from the compendium on the local machine
 
 ### Features
 1. Check if the manual/help of the topic of choice exists in the temporary directory
